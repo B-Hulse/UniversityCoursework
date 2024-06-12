@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp",
+        "string": "cpp",
+        "qpainter": "cpp",
+        "qmainwindow": "cpp",
+        "fstream": "cpp",
+        "*.ipp": "cpp",
+        "cmath": "cpp"
+    }
+}

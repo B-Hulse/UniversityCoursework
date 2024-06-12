@@ -1,0 +1,25 @@
+To build, run the 'qmake' and then 'make'
+
+To run, use the command './RaytracerWindow geometry texture'
+
+Feature list:
+    Geometric Intersections
+    Barycentric Interpolation
+    Blinn-Phong Shading
+    Texture Lookup
+    Shadow Rays
+        Most Evident in the triangle_groundplane.obj and sphere10x10_box.obji files
+    Floating point Accuracy
+        All colors are stored as floats until they are printed to screen
+    Impulse Reflection
+        Only available on the .obji files
+        Currently only supports perfect mirrors
+    .obji file
+        Standard obj file where each face that has impulse reflection is a line begining with i, instead of file
+        e.g.: f 1/1/1 2/2/2 3/3/3 - A standard face
+              i 1/1/1 2/2/2 3/3/3 - A face with impulse reflection (mirror)
+
+Notes:
+    The raytracer is slow and attempts to work in real time, so for larger files it may need to be left to render for a while.
+        The render will not update unless the window is updated in some way.
+    The ability to toggle the raytracer means you can adjust the scene using the openGL renderer without having to wait for the raytracer to update.

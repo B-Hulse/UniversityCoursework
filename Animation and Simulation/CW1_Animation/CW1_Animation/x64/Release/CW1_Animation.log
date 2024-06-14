@@ -1,24 +1,240 @@
 ﻿  atten_trigrid_window.cpp
-C:\Users\bhuls\Downloads\university_misc-master\Year4_1\Animation and Simulation\Coursework\CW1\Implementation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.h(2,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-  (compiling source file 'src/atten_trigrid_window.cpp')
-  
-  fi2d_mesh.cpp
-C:\Users\bhuls\Downloads\university_misc-master\Year4_1\Animation and Simulation\Coursework\CW1\Implementation\CW1_Animation\CW1_Animation\src\fi2d_mesh.h(2,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-  (compiling source file 'src/fi2d_mesh.cpp')
-  
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(21,16): warning C4305: '=': truncation from 'double' to 'float'
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(89,38): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(90,38): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(91,38): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(170,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(348,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(411,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(440,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(144,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(239,1): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(239,81): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(802,5): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Exact_args_t,unsigned __int64,float,float,0>(_Tag,_This2 &&,float &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(802,12): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Exact_args_t,unsigned __int64,float,float,0>(_Tag,_This2 &&,float &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(246,1): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(246,16): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(312,1): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(312,16): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(232,70): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<unsigned __int64,float,float,0>(std::tuple<unsigned __int64,float,float> &&) noexcept' being compiled
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\atten_trigrid_window.cpp(232,43): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<unsigned __int64,float,float,0>(std::tuple<unsigned __int64,float,float> &&) noexcept' being compiled
   disp_window.cpp
-C:\Users\bhuls\Downloads\university_misc-master\Year4_1\Animation and Simulation\Coursework\CW1\Implementation\CW1_Animation\CW1_Animation\src\disp_window.h(2,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-  (compiling source file 'src/disp_window.cpp')
-  
+  fi2d_mesh.cpp
   grid_window.cpp
-C:\Users\bhuls\Downloads\university_misc-master\Year4_1\Animation and Simulation\Coursework\CW1\Implementation\CW1_Animation\CW1_Animation\src\grid_window.h(2,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-  (compiling source file 'src/grid_window.cpp')
-  
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\grid_window.cpp(335,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\grid_window.cpp(364,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(144,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(239,1): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(239,81): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(802,5): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<std::_Exact_args_t,unsigned __int64,float,float,float,0>(_Tag,_This2 &&,float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(802,12): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<std::_Exact_args_t,unsigned __int64,float,float,float,0>(_Tag,_This2 &&,float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(246,1): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,3,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2,3>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,float,float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(246,16): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,3,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2,3>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,float,float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(312,1): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,float,float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(312,16): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,float,float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float,float>
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\grid_window.cpp(153,67): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<unsigned __int64,float,float,float,0>(std::tuple<unsigned __int64,float,float,float> &&) noexcept' being compiled
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\grid_window.cpp(153,38): message : see reference to function template instantiation 'std::tuple<int,float,float,float>::tuple<unsigned __int64,float,float,float,0>(std::tuple<unsigned __int64,float,float,float> &&) noexcept' being compiled
   main.cpp
-C:\Users\bhuls\Downloads\university_misc-master\Year4_1\Animation and Simulation\Coursework\CW1\Implementation\CW1_Animation\CW1_Animation\src\disp_window.h(2,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-  (compiling source file 'src/main.cpp')
-  
   trigrid_window.cpp
-C:\Users\bhuls\Downloads\university_misc-master\Year4_1\Animation and Simulation\Coursework\CW1\Implementation\CW1_Animation\CW1_Animation\src\trigrid_window.h(2,10): error C1083: Cannot open include file: 'GLFW/glfw3.h': No such file or directory
-  (compiling source file 'src/trigrid_window.cpp')
-  
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(89,36): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(90,36): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(91,36): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(170,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(389,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(418,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(144,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(239,1): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(239,81): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=unsigned __int64,
+              _Other=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(802,5): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Exact_args_t,unsigned __int64,float,float,0>(_Tag,_This2 &&,float &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(802,12): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Exact_args_t,unsigned __int64,float,float,0>(_Tag,_This2 &&,float &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(246,1): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(246,16): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<unsigned __int64,float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(312,1): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(312,16): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<unsigned __int64,float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<unsigned __int64,float,float>
+          ]
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(232,70): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<unsigned __int64,float,float,0>(std::tuple<unsigned __int64,float,float> &&) noexcept' being compiled
+C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\CW1_Animation\src\trigrid_window.cpp(232,43): message : see reference to function template instantiation 'std::tuple<int,float,float>::tuple<unsigned __int64,float,float,0>(std::tuple<unsigned __int64,float,float> &&) noexcept' being compiled
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1100 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CW1_Animation.vcxproj -> C:\Dev\Repos\UniversityCoursework\Animation and Simulation\CW1_Animation\x64\Release\CW1_Animation.exe
